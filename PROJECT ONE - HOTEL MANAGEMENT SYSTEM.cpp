@@ -146,3 +146,6 @@ int main()
 
     case 8:
         exit(0);
+
+    default:
+        cout << "\n Please select the numbers mentioned above only!";
