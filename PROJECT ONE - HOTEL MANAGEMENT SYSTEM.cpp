@@ -118,3 +118,8 @@ int main()
         cout << "\n\n Number of rooms we gave for rent:" << Srooms;
         cout << "\n\n Remaining rooms:" << Qrooms - Srooms;
         cout << "\n\n Total rooms collection for the day:" << Total_rooms;
+
+        cout << "\n\n\n\n\n Number of Pastas we had:" << Qpasta;
+        cout << "\n\n Number of pastas we sold:" << Spasta;
+        cout << "\n\n Remaining pastas:" << Qpasta - Spasta;
+        cout << "\n\n Total pastas collection for the day:" << Total_pasta;
