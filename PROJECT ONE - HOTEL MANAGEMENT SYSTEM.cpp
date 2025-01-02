@@ -52,3 +52,15 @@ int main()
             cout << "\n\tOnly" << Qrooms - Srooms << "remaining";
             break;
         }
+    case 2:
+        cout << "\n\n Enter Pasta quantity: ";
+        cin >> quant;
+        if (Qpasta - Spasta >= quant) {
+            Spasta = Spasta + quant;
+            Total_pasta = Total_pasta + quant * 250;
+            cout << "\n\n\t\t" << quant << "pasta ordered succesfully! ";
+        }
+        else {
+            cout << "\n\tSory, only" << Qpasta - Spasta << "Pasta remaining.";
+            break;
+        }
