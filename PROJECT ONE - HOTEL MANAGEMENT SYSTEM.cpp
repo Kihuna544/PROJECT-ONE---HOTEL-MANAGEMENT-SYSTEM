@@ -39,3 +39,16 @@ int main()
 
     cout << "\n\n Please enter your choice: ";
     cin >> choice;
+    switch (choice) {
+    case 1:
+        cout << "\n\n Enter the number of rooms you want: ";
+        cin >> quant;
+        if (Qrooms - Srooms >= quant) {
+            Srooms = Srooms + quant;
+            Total_rooms = Total_rooms + quant * 1200;
+            cout << "\n\n\t\t" << quant << "rooms have been alloted to you";
+        }
+        else {
+            cout << "\n\tOnly" << Qrooms - Srooms << "remaining";
+            break;
+        }
