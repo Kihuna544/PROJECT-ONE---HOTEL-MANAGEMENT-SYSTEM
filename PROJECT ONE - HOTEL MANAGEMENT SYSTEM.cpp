@@ -6,7 +6,6 @@ int main()
     int quant;
     int choice;
     //Quantity
-   //Quantity
     int Qrooms = 0, Qpasta = 0, Qbugger = 0, Qnoodles = 0, Qshake = 0, Qchicken = 0;
 
     //Food item sold
@@ -14,6 +13,7 @@ int main()
 
     //Total price of items
     int Total_rooms = 0, Total_pasta = 0, Total_bugger = 0, Total_noodles = 0, Total_shake = 0, Total_chicken = 0;
+
     cout << "\n\t Quantity of items we have";
     cout << "\n Rooms available: ";
     cin >> Qrooms;
@@ -26,7 +26,9 @@ int main()
     cout << "\n Quantity of shake: ";
     cin >> Qshake;
     cout << "\n Quantity of chicken-roll: ";
-    cin >> Qchicken; m:
+    cin >> Qchicken;
+
+m:
     cout << "\n\t\t\t Please select from the menu options ";
     cout << "\n\n1) Rooms: ";
     cout << "\n2) Pasta";
@@ -39,6 +41,7 @@ int main()
 
     cout << "\n\n Please enter your choice: ";
     cin >> choice;
+
     switch (choice) {
     case 1:
         cout << "\n\n Enter the number of rooms you want: ";
@@ -52,6 +55,7 @@ int main()
             cout << "\n\tOnly" << Qrooms - Srooms << "remaining";
             break;
         }
+
     case 2:
         cout << "\n\n Enter Pasta quantity: ";
         cin >> quant;
@@ -64,6 +68,7 @@ int main()
             cout << "\n\tSory, only" << Qpasta - Spasta << "Pasta remaining.";
             break;
         }
+
     case 3:
         cout << "\n\n Enter Bugger quantity: ";
         cin >> quant;
@@ -76,6 +81,7 @@ int main()
             cout << "\n\tOnly" << Qbugger - Sbugger << "Bugger remaining in the hotel";
             break;
         }
+
     case 4:
         cout << "\n\n Enter Noodles quantity: ";
         cin >> quant;
@@ -88,6 +94,7 @@ int main()
             cout << "\n\tOnly" << Qnoodles - Snoodles << "Pasta remaining in the hotel";
             break;
         }
+
     case 5:
         cout << "\n\n Enter shake quantity: ";
         cin >> quant;
@@ -100,6 +107,7 @@ int main()
             cout << "\n\tOnly" << Qshake - Sshake << "Shake remaining in the hotel";
             break;
         }
+
     case 6:
         cout << "\n\n Enter chicken-roll quantity: ";
         cin >> quant;
@@ -112,6 +120,7 @@ int main()
             cout << "\n\tOnly" << Qbugger - Sbugger << "chicken-rolls remaining in the hotel";
             break;
         }
+
     case 7:
         cout << "\n\t\tDetails of sales and collection";
         cout << "\n\n Number of rooms we had:" << Qrooms;
@@ -122,12 +131,14 @@ int main()
         cout << "\n\n\n\n\n Number of Pastas we had:" << Qpasta;
         cout << "\n\n Number of pastas we sold:" << Spasta;
         cout << "\n\n Remaining pastas:" << Qpasta - Spasta;
-        cout << "\n\n Total pastas collection for the day:" << Total_pasta; 
+        cout << "\n\n Total pastas collection for the day:" << Total_pasta;
+
 
         cout << "\n\n\n\n\n Number of Buggers we had:" << Qbugger;
         cout << "\n\n Number of Buggers we sold:" << Sbugger;
         cout << "\n\n Remaining bugger:" << Qbugger - Sbugger;
         cout << "\n\n Total bugger collection for the day:" << Total_pasta;
+
 
         cout << "\n\n\n\n\n Number of noodles we had:" << Qnoodles;
         cout << "\n\n Number of noodles we sold:" << Snoodles;
@@ -149,8 +160,6 @@ int main()
 
     default:
         cout << "\n Please select the numbers mentioned above only!";
-
-
     }
     goto m;
 }
