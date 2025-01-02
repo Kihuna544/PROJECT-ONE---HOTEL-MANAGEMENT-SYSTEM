@@ -88,3 +88,15 @@ int main()
             cout << "\n\tOnly" << Qnoodles - Snoodles << "Pasta remaining in the hotel";
             break;
         }
+    case 5:
+        cout << "\n\n Enter shake quantity: ";
+        cin >> quant;
+        if (Qshake - Sshake >= quant) {
+            Sshake = Sshake + quant;
+            Total_shake = Total_shake + quant * 170;
+            cout << "\n\n\t\t" << quant << "shake ordered succesfully! ";
+        }
+        else {
+            cout << "\n\tOnly" << Qshake - Sshake << "Shake remaining in the hotel";
+            break;
+        }
