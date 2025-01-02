@@ -100,3 +100,15 @@ int main()
             cout << "\n\tOnly" << Qshake - Sshake << "Shake remaining in the hotel";
             break;
         }
+    case 6:
+        cout << "\n\n Enter chicken-roll quantity: ";
+        cin >> quant;
+        if (Qchicken - Schicken >= quant) {
+            Schicken = Schicken + quant;
+            Total_chicken = Total_chicken + quant * 320;
+            cout << "\n\n\t\t" << quant << "chicken-roll ordered succesfully! ";
+        }
+        else {
+            cout << "\n\tOnly" << Qbugger - Sbugger << "chicken-rolls remaining in the hotel";
+            break;
+        }
