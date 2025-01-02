@@ -112,3 +112,9 @@ int main()
             cout << "\n\tOnly" << Qbugger - Sbugger << "chicken-rolls remaining in the hotel";
             break;
         }
+    case 7:
+        cout << "\n\t\tDetails of sales and collection";
+        cout << "\n\n Number of rooms we had:" << Qrooms;
+        cout << "\n\n Number of rooms we gave for rent:" << Srooms;
+        cout << "\n\n Remaining rooms:" << Qrooms - Srooms;
+        cout << "\n\n Total rooms collection for the day:" << Total_rooms;
