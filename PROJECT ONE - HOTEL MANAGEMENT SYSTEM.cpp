@@ -123,3 +123,8 @@ int main()
         cout << "\n\n Number of pastas we sold:" << Spasta;
         cout << "\n\n Remaining pastas:" << Qpasta - Spasta;
         cout << "\n\n Total pastas collection for the day:" << Total_pasta; 
+
+        cout << "\n\n\n\n\n Number of Buggers we had:" << Qbugger;
+        cout << "\n\n Number of Buggers we sold:" << Sbugger;
+        cout << "\n\n Remaining bugger:" << Qbugger - Sbugger;
+        cout << "\n\n Total bugger collection for the day:" << Total_pasta;
