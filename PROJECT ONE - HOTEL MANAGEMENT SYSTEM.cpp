@@ -26,4 +26,16 @@ int main()
     cout << "\n Quantity of shake: ";
     cin >> Qshake;
     cout << "\n Quantity of chicken-roll: ";
-    cin >> Qchicken;
+    cin >> Qchicken; m:
+    cout << "\n\t\t\t Please select from the menu options ";
+    cout << "\n\n1) Rooms: ";
+    cout << "\n2) Pasta";
+    cout << "\n3) Bugger";
+    cout << "\n4) Noodles";
+    cout << "\n5) Shake";
+    cout << "\n6) Chicken-roll";
+    cout << "\n7) Information regarding sales and collections";
+    cout << "\n8) Exit";
+
+    cout << "\n\n Please enter your choice: ";
+    cin >> choice;
