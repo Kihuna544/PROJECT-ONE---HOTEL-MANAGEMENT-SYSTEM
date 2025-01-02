@@ -44,7 +44,7 @@ m:
 
     switch (choice) {
     case 1:
-        cout << "\n\n Enter the number of rooms you want: ";
+        cout << "\n\n\n Enter the number of rooms you want: ";
         cin >> quant;
         if (Qrooms - Srooms >= quant) {
             Srooms = Srooms + quant;
