@@ -122,4 +122,4 @@ int main()
         cout << "\n\n\n\n\n Number of Pastas we had:" << Qpasta;
         cout << "\n\n Number of pastas we sold:" << Spasta;
         cout << "\n\n Remaining pastas:" << Qpasta - Spasta;
-        cout << "\n\n Total pastas collection for the day:" << Total_pasta;
+        cout << "\n\n Total pastas collection for the day:" << Total_pasta; 
