@@ -14,4 +14,16 @@ int main()
 
     //Total price of items
     int Total_rooms = 0, Total_pasta = 0, Total_bugger = 0, Total_noodles = 0, Total_shake = 0, Total_chicken = 0;
- 
+    cout << "\n\t Quantity of items we have";
+    cout << "\n Rooms available: ";
+    cin >> Qrooms;
+    cout << "\n Quantity of pasta: ";
+    cin >> Qpasta;
+    cout << "\n Quantity of bugger: ";
+    cin >> Qbugger;
+    cout << "\n Quantity of noodles: ";
+    cin >> Qnoodles;
+    cout << "\n Quantity of shake: ";
+    cin >> Qshake;
+    cout << "\n Quantity of chicken-roll: ";
+    cin >> Qchicken;
