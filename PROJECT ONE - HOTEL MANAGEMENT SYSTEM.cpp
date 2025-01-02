@@ -133,3 +133,8 @@ int main()
         cout << "\n\n Number of noodles we sold:" << Snoodles;
         cout << "\n\n Remaining noodles:" << Qnoodles - Snoodles;
         cout << "\n\n Total noodles collection for the day:" << Total_noodles;
+
+        cout << "\n\n\n\n\nNumber of shake we had:" << Qshake;
+        cout << "\n\n Number of shake we sold:" << Sshake;
+        cout << "\n\n Remaining shakes:" << Qshake - Sshake;
+        cout << "\n\n Total shakes collection for the day:" << Total_shake;
