@@ -64,3 +64,15 @@ int main()
             cout << "\n\tSory, only" << Qpasta - Spasta << "Pasta remaining.";
             break;
         }
+    case 3:
+        cout << "\n\n Enter Bugger quantity: ";
+        cin >> quant;
+        if (Qbugger - Sbugger >= quant) {
+            Sbugger = Sbugger + quant;
+            Total_bugger = Total_bugger + quant * 120;
+            cout << "\n\n\t\t" << quant << "bugger ordered succesfully! ";
+        }
+        else {
+            cout << "\n\tOnly" << Qbugger - Sbugger << "Bugger remaining in the hotel";
+            break;
+        }
