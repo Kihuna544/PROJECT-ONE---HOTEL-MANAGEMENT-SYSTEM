@@ -143,3 +143,6 @@ int main()
         cout << "\n\n Number of chicken-rolls we sold:" << Schicken;
         cout << "\n\n Remaining chicken-rolls:" << Qchicken - Schicken;
         cout << "\n\n Total chicken-rolls collection for the day:" << Total_chicken;
+
+    case 8:
+        exit(0);
