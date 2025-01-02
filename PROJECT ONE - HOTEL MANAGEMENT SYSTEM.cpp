@@ -76,3 +76,15 @@ int main()
             cout << "\n\tOnly" << Qbugger - Sbugger << "Bugger remaining in the hotel";
             break;
         }
+    case 4:
+        cout << "\n\n Enter Noodles quantity: ";
+        cin >> quant;
+        if (Qnoodles - Snoodles >= quant) {
+            Snoodles = Snoodles + quant;
+            Total_noodles = Total_noodles + quant * 200;
+            cout << "\n\n\t\t" << quant << "noodles ordered succesfully! ";
+        }
+        else {
+            cout << "\n\tOnly" << Qnoodles - Snoodles << "Pasta remaining in the hotel";
+            break;
+        }
